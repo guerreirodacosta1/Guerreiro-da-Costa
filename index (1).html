@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guerreiro da Costa - Marmitas</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+    header { background: #004d40; color: white; text-align: center; padding: 40px 20px; }
+    header img { max-height: 80px; margin-bottom: 10px; }
+    nav { background: #00796b; display: flex; justify-content: center; gap: 20px; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 1000px; margin: auto; padding: 40px 20px; }
+    h2 { color: #004d40; }
+    .gallery img { width: 300px; margin: 10px; border-radius: 10px; }
+    .reviews { background: #f1f1f1; padding: 20px; border-radius: 8px; }
+    .review { margin-bottom: 15px; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; }
+    input, textarea, button {
+      font-size: 1rem; padding: 10px; border: 1px solid #ccc; border-radius: 5px;
+    }
+    button { background-color: #00796b; color: white; border: none; cursor: pointer; }
+    footer { text-align: center; background: #004d40; color: white; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo Guerreiro da Costa">
+  <h1>Guerreiro da Costa</h1>
+  <p>Marmitas saudáveis para empresas e famílias</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#produtos">Produtos</a>
+  <a href="#avaliacoes">Avaliações</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h2>Sobre Nós</h2>
+  <p>Somos especialistas em marmitas balanceadas, práticas e saborosas para pessoas físicas e empresas. Entregamos com qualidade, pontualidade e compromisso com a saúde.</p>
+</section>
+
+<section id="produtos">
+  <h2>Nossas Marmitas</h2>
+  <div class="gallery">
+    <img src="macarrao1.jpeg" alt="Marmita macarrão com carne">
+    <img src="macarrao2.jpeg" alt="Marmita macarrão bolonhesa">
+    <img src="macarrao3.jpeg" alt="Marmita macarrão ao pesto">
+  </div>
+</section>
+
+<section id="avaliacoes">
+  <h2>O que dizem nossos clientes</h2>
+  <div class="reviews">
+    <div class="review"><p>“Comida deliciosa, equilibrada e sempre fresquinha. Recomendo para toda empresa!”</p><strong>– Amanda L.</strong></div>
+    <div class="review"><p>“Equipe atenciosa, entrega rápida e refeições saborosas. Excelente!”</p><strong>– Ricardo T.</strong></div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Fale Conosco</h2>
+  <form>
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu e-mail" required>
+    <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Guerreiro da Costa. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
